@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ELECTRORUTRA — Formação Profissional</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#14202b;background:#f6f8fa}
+header{background:#0d1720;color:#fff;position:sticky;top:0;z-index:10}
+.nav{max-width:1100px;margin:auto;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font-weight:900;font-size:24px;letter-spacing:1px}.logo span{color:#f4b400}
+nav a{color:#fff;text-decoration:none;margin-left:18px;font-size:14px}
+.hero{background:linear-gradient(135deg,#0d1720,#203747);color:white;padding:70px 20px}
+.hero-inner{max-width:1100px;margin:auto;display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}
+.badge{display:inline-block;background:#f4b400;color:#111;padding:8px 12px;border-radius:20px;font-weight:bold}
+h1{font-size:48px;margin:18px 0 12px;line-height:1.05}.hero p{font-size:19px;line-height:1.6;color:#dce6ec}
+.btn{display:inline-block;border:0;border-radius:8px;padding:14px 20px;font-weight:bold;text-decoration:none;cursor:pointer;margin:6px 6px 6px 0}
+.primary{background:#f4b400;color:#111}.secondary{background:#fff;color:#17222c}
+.hero-card{background:#fff;color:#17222c;border-radius:18px;padding:25px;box-shadow:0 15px 40px #0005}
+section{padding:60px 20px}.wrap{max-width:1100px;margin:auto}
+.title{text-align:center;margin-bottom:35px}.title h2{font-size:34px;margin:0 0 10px}.title p{color:#667}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.card{background:#fff;border-radius:14px;padding:22px;box-shadow:0 5px 20px #00000010}.card h3{margin-top:0;color:#172c39}
+.form{background:#fff;padding:28px;border-radius:16px;box-shadow:0 5px 25px #00000012;max-width:800px;margin:auto}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}label{font-weight:bold;font-size:14px}input,select,textarea{width:100%;padding:12px;margin-top:7px;border:1px solid #ccd5db;border-radius:8px;font-size:15px}textarea{min-height:100px}
+.full{grid-column:1/-1}.whats{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:15px 0}.whats label{border:2px solid #d7dfe4;padding:14px;border-radius:10px;cursor:pointer}.whats input{width:auto;margin-right:8px}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.gallery div{height:210px;border-radius:14px;background:linear-gradient(135deg,#dce5ea,#aebdc6);display:flex;align-items:center;justify-content:center;text-align:center;color:#445;font-weight:bold;padding:20px}
+.contact{background:#0d1720;color:#fff}.contact p{color:#d7e0e6}
+footer{text-align:center;padding:20px;background:#091018;color:#b8c4cc;font-size:13px}
+@media(max-width:750px){.hero-inner,.cards,.grid,.whats,.gallery{grid-template-columns:1fr}h1{font-size:38px}nav{display:none}}
+</style>
+</head>
+<body>
+<header><div class="nav"><div class="logo">ELECTRO<span>RUTRA</span></div><nav><a href="#cursos">Cursos</a><a href="#galeria">Galeria</a><a href="#inscricao">Inscrição</a><a href="#contactos">Contactos</a></nav></div></header>
+
+<section class="hero"><div class="hero-inner">
+<div>
+<span class="badge">FORMAÇÃO PROFISSIONAL</span>
+<h1>Prepare-se para o futuro no setor elétrico.</h1>
+<p>Formação teórica e prática para desenvolver competências profissionais no mundo da eletricidade.</p>
+<a class="btn primary" href="#inscricao">Inscreva-se Agora</a>
+<a class="btn secondary" href="#cursos">Ver Cursos</a>
+</div>
+<div class="hero-card"><h2>ELECTRORUTRA</h2><p><strong>Solutions Behind Energy</strong></p><p>Centro de formação focado em conhecimentos técnicos, prática e preparação para o mercado de trabalho.</p><a class="btn primary" href="#inscricao">Começar inscrição</a></div>
+</div></section>
+
+<section><div class="wrap"><div class="title"><h2>Por que escolher a ELECTRORUTRA?</h2><p>Conhecimento, prática e preparação profissional.</p></div>
+<div class="cards"><div class="card"><h3>⚡ Formação prática</h3><p>Aprendizagem com atividades práticas para reforçar as competências técnicas.</p></div><div class="card"><h3>📚 Ensino teórico</h3><p>Conteúdos organizados para complementar a experiência prática dos formandos.</p></div><div class="card"><h3>🎓 Preparação profissional</h3><p>Formação direcionada para quem pretende desenvolver-se na área da eletricidade.</p></div><div class="card"><h3>👨‍🔧 Ambiente de aprendizagem</h3><p>Espaço para aprender, praticar e desenvolver conhecimentos técnicos.</p></div></div></div></section>
+
+<section id="cursos"><div class="wrap"><div class="title"><h2>Cursos Disponíveis</h2><p>Escolha a formação que pretende frequentar.</p></div>
+<div class="cards">
+<div class="card"><h3>Eletricidade Residencial e Predial</h3><p>Conhecimentos e práticas fundamentais de instalações elétricas residenciais e prediais.</p></div>
+<div class="card"><h3>Gestão Energética de Infraestruturas Críticas</h3><p>Formação direcionada à gestão e utilização eficiente da energia em infraestruturas críticas.</p></div>
+<div class="card"><h3>Operação de Subestações Elétricas de Média e Baixa Tensão</h3><p>Conteúdos relacionados com operação e segurança de sistemas elétricos.</p></div>
+<div class="card"><h3>Proteção Elétrica de Sistemas de Média e Baixa Tensão</h3><p>Fundamentos de proteção e segurança de sistemas elétricos.</p></div>
+<div class="card"><h3>Operação e Planeamento no Sistema Elétrico de Potência</h3><p>Conhecimentos sobre operação e planeamento de sistemas elétricos de potência.</p></div>
+</div></div></section>
+
+<section id="galeria"><div class="wrap"><div class="title"><h2>Galeria</h2><p>Aulas, formandos e atividades da ELECTRORUTRA.</p></div>
+<div class="gallery"><div>Foto dos formandos<br>Galeria de formação</div><div>Aulas práticas<br>Atividades técnicas</div><div>Aulas teóricas<br>Aprendizagem em sala</div></div>
+<p style="text-align:center;margin-top:18px;color:#667">As fotografias enviadas serão colocadas aqui na versão publicada do site.</p>
+</div></section>
+
+<section id="inscricao"><div class="wrap"><div class="title"><h2>Faça a sua inscrição</h2><p>Preencha os dados e escolha o WhatsApp para receber a sua inscrição.</p></div>
+<form class="form" id="form">
+<div class="grid">
+<div class="full"><label>Nome completo*<input id="nome" required></label></div>
+<div><label>Telefone / WhatsApp*<input id="telefone" required></label></div>
+<div><label>Data de nascimento<input id="nascimento" type="date"></label></div>
+<div><label>Província<input id="provincia"></label></div>
+<div><label>Município<input id="municipio"></label></div>
+<div><label>Escolaridade<input id="escolaridade"></label></div>
+<div class="full"><label>Curso pretendido*<select id="curso" required><option value="">Selecione um curso</option>
+<option>Eletricidade Residencial e Predial</option>
+<option>Gestão Energética de Infraestruturas Críticas</option>
+<option>Operação de Subestações Elétricas de Média e Baixa Tensão</option>
+<option>Proteção Elétrica de Sistemas de Média e Baixa Tensão</option>
+<option>Operação e Planeamento no Sistema Elétrico de Potência</option>
+</select></label></div>
+<div class="full"><label>Observação (opcional)<textarea id="obs" placeholder="Escreva alguma informação adicional..."></textarea></label></div>
+</div>
+<h3>Escolha o WhatsApp para enviar a inscrição</h3>
+<div class="whats">
+<label><input type="radio" name="wa" value="945338448" checked> WhatsApp 1 — 945 338 448</label>
+<label><input type="radio" name="wa" value="974729759"> WhatsApp 2 — 974 729 759</label>
+</div>
+<button class="btn primary" type="submit">Enviar inscrição pelo WhatsApp</button>
+<p style="font-size:13px;color:#667">Ao enviar, o WhatsApp será aberto com os dados preenchidos para concluir o contacto com a ELECTRORUTRA.</p>
+</form></div></section>
+
+<section id="contactos" class="contact"><div class="wrap"><div class="title"><h2>Contactos</h2><p>Fale diretamente com a ELECTRORUTRA.</p></div>
+<p style="text-align:center">WhatsApp: <strong>945 338 448</strong> &nbsp; | &nbsp; <strong>974 729 759</strong></p>
+<p style="text-align:center">Ndalatando, Cuanza Norte — Angola</p></div></section>
+<footer>© 2026 ELECTRORUTRA — Solutions Behind Energy</footer>
+
+<script>
+document.getElementById('form').addEventListener('submit',function(e){
+ e.preventDefault();
+ const nome=document.getElementById('nome').value.trim();
+ const tel=document.getElementById('telefone').value.trim();
+ const nasc=document.getElementById('nascimento').value;
+ const prov=document.getElementById('provincia').value.trim();
+ const mun=document.getElementById('municipio').value.trim();
+ const esc=document.getElementById('escolaridade').value.trim();
+ const curso=document.getElementById('curso').value;
+ const obs=document.getElementById('obs').value.trim();
+ const wa=document.querySelector('input[name="wa"]:checked').value;
+ const msg=`Olá, ELECTRORUTRA!%0A%0A*Nova inscrição pelo site*%0A%0A*Nome:* ${encodeURIComponent(nome)}%0A*Telefone:* ${encodeURIComponent(tel)}%0A*Data de nascimento:* ${encodeURIComponent(nasc||'Não informado')}%0A*Província:* ${encodeURIComponent(prov||'Não informado')}%0A*Município:* ${encodeURIComponent(mun||'Não informado')}%0A*Escolaridade:* ${encodeURIComponent(esc||'Não informado')}%0A*Curso:* ${encodeURIComponent(curso)}%0A*Observação:* ${encodeURIComponent(obs||'Nenhuma')}`;
+ window.open(`https://wa.me/244${wa}?text=${msg}`,'_blank');
+});
+</script>
+</body>
+</html>
